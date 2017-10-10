@@ -1,0 +1,102 @@
+/*
+-----------------------------------------------
+stylesheet template for Pesticide Exam
+----------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/**** define color variable, unused-waiting for support in modern browser ****/
+:root {
+    --gray: #4d5056 ;
+}
+
+/********************************************************
+Banner Area
+********************************************************/
+#banner {
+    width: 100%;
+    height: 116px;
+    justify-content:space-between;
+    background-color: #4d5056 ;
+}
+
+#banner h1 {
+    color:white;
+    text-align: center;
+}
+
+/********************************************************
+Content Area
+********************************************************/
+
+#content h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#content p {
+    font-size: 1.1em;
+}
+
+#content .list-group-item {
+    border: 0px;
+}
+.panel-heading a{
+    font-size: .9em !important;
+}
+
+.training-box {
+ position:relative;
+ overflow:hidden;
+}
+
+.training-box img {
+    max-width:150%;
+}
+
+.training-box a{
+    color:white;
+    background-color:#4d5056;
+}
+
+.caption { 
+    height:50px;
+    text-align: center; 
+    background-color: #4d5056;
+    color:white;    
+    max-width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+
+.caption a{
+    color:white;
+    margin-top:0px !important;
+    margin-bottom: 0px !important;
+}
+
+.description {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(77, 80, 86, 0.8);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.description p {
+    font-size: .9em;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
